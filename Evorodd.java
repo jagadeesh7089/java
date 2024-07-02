@@ -4,6 +4,11 @@ public class Evorodd {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int x=sc.nextInt();
-        System.out.println(x%2==0?"Given num is even":"Given  num is odd");
+       if(!(x%2==0)){
+         System.out .println("Given num is odd");
+       }
+       else{
+        System.out.println("Given num is even");
+       }
     }
 }
