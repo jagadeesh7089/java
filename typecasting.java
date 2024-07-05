@@ -6,10 +6,15 @@ public class typecasting {
         // System.out.println(a);
         // System.out.println(b);/
 
-       int a=1000;
-       byte b=(byte)a;
+    //    int a=1000;
+    //    byte b=(byte)a;
 
-        System.out.println(a);
-        System.out.println(b);
+    //     System.out.println(a);
+
+    //     System.out.println(b);
+       double d=223.43;
+       int valu
+       
     }
+
 }

@@ -35,7 +35,7 @@ public class Lcm {
                 min2=y;
             }
          }
-         for(int i=1;i<=x*y*z;i++){
+         for(int i=1;i<=x*y*z;i++){ 
             if(max*i%min1==0&&max*1%min2==0){
                 System.out.println(max*i);
                 break;

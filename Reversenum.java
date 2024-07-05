@@ -8,15 +8,15 @@ public class Reversenum {
         int sum=0;
         int rem=0;
         while(num!=0){
+
             rem=num%10;
-            sum=sum*10+rem;
             num=num/10;
+            if(rem>5){
+               sum=sum*10+rem;
+               System.out.println(sum);
+            }
         }
-        while(sum!=0){
-            rem=sum%10;
-            sum=sum/10;
-            System.out.println(rem);
-        }
+        
 
     }
 }
