@@ -11,15 +11,15 @@ public class Lcm {
          int min2=0;
 
          if(x>y){
-            if(x>z){
-                max=x;
+             if(x>z){
+                 max=x;
                 min1=y;
                 min2=z;
             }
             else{
-                max=z;
-                min1=x;
-                min2=y;
+                 max=z;
+                 min1=x;
+                 min2=y;
 
             }
          }
@@ -35,8 +35,9 @@ public class Lcm {
                 min2=y;
             }
          }
+        
          for(int i=1;i<=x*y*z;i++){ 
-            if(max*i%min1==0&&max*1%min2==0){
+            if(max*i%min1==0 && max*i%min2==0){
                 System.out.println(max*i);
                 break;
             }

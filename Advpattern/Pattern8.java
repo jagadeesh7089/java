@@ -1,19 +1,20 @@
 package Advpattern;
 
-public class Pattern5 {
+public class Pattern8 {
     public static void main(String[] args) {
-        //NUMBER 1
-        for(int i=1;i<=7;i++){
-            for(int j=1;j<=i;j++){
-                if(i%2==0){
+        // NUMBER 5
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=6;j++){
+                if(j<=i){
                     System.out.print("#"+" ");
                 }
                 else{
-                    System.out.print(i+" ");
+                    System.out.print("$"+" ");
                 }
+               
             }
             System.out.println("");
         }
-       
     }
+    
 }
