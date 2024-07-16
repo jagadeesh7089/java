@@ -19,8 +19,6 @@ public class Instance {
                  return this.basic+((double)this.hra/100*this.basic)-(this.pfund*2)-((double)this.ptax/100*this.basic);
             }
             
-        
-            
         }
 
         Employee e1=new Employee("Sathi",35000,20,2000,1.6);
