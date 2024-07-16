@@ -9,7 +9,7 @@ public class DQueue {
             int right;
             int length;
 
-            Queue(){
+              Queue(){
               this.arr =new int[100];
               this.left=0;
               this.right=0;
