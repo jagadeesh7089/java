@@ -1,3 +1,4 @@
+package Datastructures;
 import java.util.Scanner;
 
 public class DQueue {
