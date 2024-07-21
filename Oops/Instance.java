@@ -1,8 +1,8 @@
-package Oops;
+// package Oops;
 
-public class Instance {
+ public class Instance {
     public static void main(String[] args) {
-        class Employee {
+         class Employee {
             String fullname;
             int basic;
             int hra;
