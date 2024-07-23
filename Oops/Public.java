@@ -21,7 +21,7 @@
      }
      
  }
-    public class Public {
+    public class Public {   
     
     public static void main(String[] args) {
        
