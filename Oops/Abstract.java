@@ -1,6 +1,6 @@
 public class Abstract {
     public static void main(String[]args){
-       abstract class Shapes{
+        abstract class Shapes{
         abstract void area();
           void abc(){
             System.out.println("this abc method");
